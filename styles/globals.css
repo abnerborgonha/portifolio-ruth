@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body > div {
+  @apply h-screen;
+}
+
+@layer components {
+  @import url('./components/page.css');
+  @import url('./components/header.css');
+  @import url('./components/button.css');
+}

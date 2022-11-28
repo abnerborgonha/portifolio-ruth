@@ -1,0 +1,7 @@
+.header {
+  @apply  fixed top-0 left-0 w-full py-8 px-16 bg-background flex justify-between items-center
+}
+
+.header-li {
+  @apply cursor-pointer p-2 hover:font-bold
+}

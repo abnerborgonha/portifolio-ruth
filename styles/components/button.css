@@ -1,0 +1,22 @@
+.btn {
+  @apply py-4 px-8 font-sans;
+}
+
+.btn-border {
+  @apply border-x-2 border-y-2 border-black;
+}
+
+.btn-focus {
+  @apply focus:outline-none;
+}
+
+.btn-primary {
+  @apply btn btn-focus btn-border bg-primary text-text rounded-t shadow-sm;
+}
+
+.btn-secondary {
+  @apply btn btn-focus bg-text text-white;
+}
+.btn-transparent {
+  @apply btn btn-focus bg-transparent text-text;
+}

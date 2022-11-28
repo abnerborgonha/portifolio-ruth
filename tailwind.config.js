@@ -9,11 +9,14 @@ module.exports = {
     extend: {
       colors: {
         primary: '#f7bd2d',
+        primaryHover: '#f5b414',
         background: '#dedede',
         text: '#242424',
         transparent: 'transparent'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
